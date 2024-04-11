@@ -19,7 +19,7 @@ export default function Home() {
         className="mt-4 border-4"
         alt="Rocket"
       />
-      <p className="text-l">Hii!!, I am Vrindavan, I love software and computers. I mainly work with Python,(ai mlstack- numpy, matplotlib, pytorch), C, C++, and flask, react, tailwind for frontend. My hobbies incude solving CTFs, reading sci-fi/ tech-history books.
+      <p className="text-l mt-5">Hii!!, I am Vrindavan, I love software and computers. I mainly work with Python,(ai mlstack- numpy, matplotlib, pytorch), C, C++, and flask, react, tailwind for frontend. My hobbies incude solving CTFs, reading sci-fi/ tech-history books.
       </p>
       <br />
       <Link href="/blog/" className="underline text-2xl text-blue-600 hover:text-blue-800 visited:text-purple-600 cursor-pointer">Blog</Link>
