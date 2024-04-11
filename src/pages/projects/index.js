@@ -65,7 +65,7 @@ export default function Projects() {
                     <Error_component error={error} />
 
                     {projects.map((project, index) => (
-                        <Project name={project.project_name} desc={project.project_desc} demo_link={project.demo_link}
+                        <Project key={ index} name={project.project_name} desc={project.project_desc} demo_link={project.demo_link}
                             source_link={project.source_link} />
                     ))}
 
